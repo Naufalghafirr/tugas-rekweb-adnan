@@ -24,7 +24,13 @@
                     <a href="{{ route('mahasiswa') }}" class="nav-link text-white">Data Mahasiswa</a>
                 </li>
                 <li class="nav-item" >
-                    <a href="{{ route('logout')}}" class="nav-link text-white">Logout</a>
+                    <form action="{{ route('logout') }}" method="post">
+                        <button type="submit"
+                            class="btn btn-link text-white p-0 m-0 align-baseline"
+                            style="text-decoration: none;">
+                            Logout
+                        </button>
+                    </form>
                 </li>
             </ul>
         </div>
