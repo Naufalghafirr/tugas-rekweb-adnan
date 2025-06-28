@@ -25,6 +25,8 @@
                 </li>
                 <li class="nav-item" >
                     <form action="{{ route('logout') }}" method="post">
+                        @csrf
+
                         <button type="submit"
                             class="btn btn-link text-white p-0 m-0 align-baseline"
                             style="text-decoration: none;">
