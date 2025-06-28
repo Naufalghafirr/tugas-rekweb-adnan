@@ -23,6 +23,9 @@
                 <li class="nav-item">
                     <a href="{{ route('mahasiswa') }}" class="nav-link text-white">Data Mahasiswa</a>
                 </li>
+                <li class="nav-item" >
+                    <a href="{{ route('logout')}}" class="nav-link text-white">Logout</a>
+                </li>
             </ul>
         </div>
         <div class="flex-fill">
